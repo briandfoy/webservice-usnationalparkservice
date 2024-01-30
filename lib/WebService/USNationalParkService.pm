@@ -113,6 +113,8 @@ sub check_rate_limit ($self) {
 
 =item * L<https://github.com/nationalparkservice>
 
+=back
+
 =head1 SOURCE AVAILABILITY
 
 This source is in Github:
