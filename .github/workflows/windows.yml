@@ -36,6 +36,7 @@ on:
 
 jobs:
     perl:
+        environment: automated_testing
         runs-on: ${{ matrix.os }}
         # store any secrets in an environment named "testing"
         strategy:

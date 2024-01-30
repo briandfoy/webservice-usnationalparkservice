@@ -36,6 +36,7 @@ on:
 
 jobs:
     perl:
+        environment: automated_testing
         runs-on: macOS-latest
         steps:
             - uses: actions/checkout@v3
