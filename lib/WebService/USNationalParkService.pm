@@ -51,21 +51,14 @@ sub base_url ($c) {
 
 =back
 
-=head2
-
-=over 4
-
-=item * _get( URL, QUERY )
-
 =cut
 
-sub get ( $self, @args ) {
+
+sub _get ( $self, @args ) {
 	$self->_ua->get( @args );
 	}
 
 sub _ua ( $self ) { $self->{ua} }
-
-=back
 
 =head2 Methods
 
