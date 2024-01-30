@@ -55,15 +55,15 @@ sub base_url ($c) {
 
 =over 4
 
-=item * get
+=item * _get( URL, QUERY )
 
 =cut
 
 sub get ( $self, @args ) {
-	$self->ua->get( @args );
+	$self->_ua->get( @args );
 	}
 
-sub ua ( $self ) { $self->{ua} }
+sub _ua ( $self ) { $self->{ua} }
 
 =back
 
@@ -83,7 +83,7 @@ the current rate limit.
 =cut
 
 sub check_rate_limit ($self) {
-	my $tx = $self->get( $self->base_url );
+	my $tx = $self->_get( $self->base_url );
 
 	return {
 		'limit'     => 0,
