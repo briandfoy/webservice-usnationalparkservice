@@ -2,6 +2,20 @@
 
 =encoding utf8
 
+=for HTML <a href="https://www.github.com/briandfoy/webservice-usnationalparkservice/actions?query=workflow%3Amacos"><img src="https://www.github.com/briandfoy/webservice-usnationalparkservice/workflows/macos/badge.svg"></a>
+
+=for HTML <a href="https://www.github.com/briandfoy/webservice-usnationalparkservice/actions?query=workflow%3Aubuntu"><img src="https://www.github.com/briandfoy/webservice-usnationalparkservice/workflows/ubuntu/badge.svg"></a>
+
+=for HTML <a href="https://www.github.com/briandfoy/webservice-usnationalparkservice/actions?query=workflow%3Awindows"><img src="https://www.github.com/briandfoy/webservice-usnationalparkservice/workflows/windows/badge.svg"></a>
+
+=for HTML <a href="https://ci.appveyor.com/project/briandfoy/webservice-usnationalparkservice"><img src="https://ci.appveyor.com/api/projects/status/8vlj9eng9cg7fvwp?svg=true" /></a>
+
+=for HTML <a href='https://coveralls.io/github/briandfoy/webservice-usnationalparkservice?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/webservice-usnationalparkservice/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+=for HTML <a href="https://github.com/briandfoy/webservice-usnationalparkservice/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/WebService::USNationalParkService.svg" /></a>
+
+=for HTML <a href="http://www.metacpan.org/module/WebService::USNationalParkService"><img src="https://img.shields.io/cpan/v/WebService::USNationalParkService.svg" /></A>
+
 =head1 The WebService::USNationalParkService module
 
 This is the I<README> for the L<WebService::USNationalParkService> Perl module.
